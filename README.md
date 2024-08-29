@@ -6,22 +6,22 @@ This project was an attempt for combining RTS mechanics with ability to modify t
 
 H -- help screen with controls
 
-W, A, S, D -- camera movement
-R, F -- zoom in/out
+W, A, S, D -- camera movement\
+R, F -- zoom in/out\
 Q, E -- rotate camera
 
-TAB -- change terrain tool
-C -- toggle resupplyer (for warehouse and cart)
+TAB -- change terrain tool\
+C -- toggle resupplyer (for warehouse and cart)\
 X -- toggle resupplyee
 
 Production:
-1 -- switch recipes
-2 -- begin production
+1 -- switch recipes\
+2 -- begin production\
 3 -- cancel current production
 
-LMB:
--- de/select object (no tool)
--- place solid block or water (respective tool selected)
+LMB:\
+-- de/select object (no tool)\
+-- place solid block or water (respective tool selected)\
 -- remove solid block (respective tool selected)
 
 RMB -- order unit to move to location or attack
@@ -30,34 +30,40 @@ Alt+F4 -- quit game
 
 ## Mechanics
 
-
 ### Gathering resources
 
 ### Building units
 
 ### Resupplying
 Each unit needs to be constatntly supplied with provisions or ammunition to function properly. When low on provisions, unit moves slowly. Ranged units without ammunition cannot attack.
+You can toggle on/off unit being resupplied with X.
+Resupplying other units can be toggled on/off with C
 
 ### Modifying terrain
 Terrain can be modified by removing, or placing, blocks onto, or from, the unobstracted terrain. Water can be also placed, which can slow down units or damage some structures.
 
 
 ## Units
-
+All units are produced in only available building (warehouse), that each player starts with. Warehouse is also place, where citizens drop off gathered resources. They can also attack enemies nearby. Units can be resupplied by the warehouse.
 
 ### Citizen
+Can harvest resources. It can also attack enemies if ordered manually.
 
 ### Gun soldier
+Capable of attacking at a small distance. Has damage bonus against pike soldiers.
 
 ### Pike soldier
+Capable of close range attack. Has damage bonus against saber soldiers.
 
 ### Saber soldier
+Capable of melee attack. Has damage bonus against gun soldiers.
 
 ### Resupply cart
-
+Cannot attack. Used for resupplying units far from the warehouse.
 
 
 ## Used code
+Links where I got some of the code from. 
 
 [Mesh combiner](https://github.com/pharan/Unity-MeshSaver/blob/master/MeshSaver/Editor/MeshSaverEditor.cs)\
 [Mesh combiner example](https://gist.github.com/yigiteren/551f693e62b5f39baaba7536fa2c4680)\
