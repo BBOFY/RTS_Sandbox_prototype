@@ -1,0 +1,13 @@
+Library/
+Temp/
+*sln
+*csproj
+Logs/
+obj/
+.idea/
+ThesisTex/
+DebugBuild/
+Build/rts_game_BurstDebugInformation_DoNotShip/
+
+.Editing/
+USerSettings/

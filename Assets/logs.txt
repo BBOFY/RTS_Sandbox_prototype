@@ -1,0 +1,17 @@
+Error 0:
+ObjectDisposedException: SerializedProperty _resourceNodes.Array.data[5] has disappeared!
+UnityEditor.SerializedProperty.Verify (UnityEditor.SerializedProperty+VerifyFlags verifyFlags) (at <dcccd05c4df34a519c0d00d5aed085b6>:0)
+UnityEditor.SerializedProperty.get_objectReferenceInstanceIDValue () (at <dcccd05c4df34a519c0d00d5aed085b6>:0)
+UnityEditor.EditorGUIUtility.ObjectContent (UnityEngine.Object obj, System.Type type, UnityEditor.SerializedProperty property, UnityEditor.EditorGUI+ObjectFieldValidator validator) (at <dcccd05c4df34a519c0d00d5aed085b6>:0)
+UnityEditor.UIElements.ObjectField+ObjectFieldDisplay.Update () (at <dcccd05c4df34a519c0d00d5aed085b6>:0)
+UnityEditor.UIElements.ObjectField.UpdateDisplay () (at <dcccd05c4df34a519c0d00d5aed085b6>:0)
+UnityEngine.UIElements.VisualElement+SimpleScheduledItem.PerformTimerUpdate (UnityEngine.UIElements.TimerState state) (at <e54b50a65ec84633acd0bfa0a9b5d9b4>:0)
+UnityEngine.UIElements.TimerEventScheduler.UpdateScheduledEvents () (at <e54b50a65ec84633acd0bfa0a9b5d9b4>:0)
+UnityEngine.UIElements.UIElementsUtility.UnityEngine.UIElements.IUIElementsUtility.UpdateSchedulers () (at <e54b50a65ec84633acd0bfa0a9b5d9b4>:0)
+UnityEngine.UIElements.UIEventRegistration.UpdateSchedulers () (at <e54b50a65ec84633acd0bfa0a9b5d9b4>:0)
+UnityEditor.RetainedMode.UpdateSchedulers () (at <4f7c5e7f0bee4666bae915f254ab581f>:0)
+
+Error 1:
+type is not a supported pptr value
+UnityEditor.RetainedMode:UpdateSchedulers ()
+
