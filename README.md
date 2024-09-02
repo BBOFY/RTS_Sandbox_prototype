@@ -1,7 +1,7 @@
 # RTS Sandbox prototype
 This project was an attempt for combining RTS mechanics with ability to modify terrain and a tiny logistics system. Projects was created in about half a year as a personal and thesis project in one, with no prior experience with Unity engine nor with C#.
 
-Built game executable `rts_game.exe` is located in `Build` folder. Can be run in Windows 10/11 64-bit operating system.
+Built game executable `rts_game.exe` is located in `Build` folder. It can be run in Windows 10/11 64-bit operating system.
 
 
 ## Controlls
