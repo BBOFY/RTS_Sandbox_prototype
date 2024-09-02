@@ -1,6 +1,8 @@
 # RTS Sandbox prototype
 This project was an attempt for combining RTS mechanics with ability to modify terrain and a tiny logistics system. Projects was created in about half a year as a personal and thesis project in one, with no prior experience with Unity engine nor with C#.
 
+Built game executable `rts_game.exe` is located in `Build` folder. Can be run in Windows 10/11 64-bit operating system.
+
 
 ## Controlls
 
@@ -30,9 +32,7 @@ Alt+F4 -- quit game
 
 ## Mechanics
 
-### Gathering resources
-
-### Building units
+Apart from classic RTS mechanics like gathering resources via citizens and creating units in building, there is also need to resupply the units and ability to modify world terrain.
 
 ### Resupplying
 Each unit needs to be constatntly supplied with provisions or ammunition to function properly. When low on provisions, unit moves slowly. Ranged units without ammunition cannot attack.
